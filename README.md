@@ -1,46 +1,56 @@
-# 🛠️ SmartBiz AI — Mobile Assistant & Anti-Spam Shield for Tradespeople
+# Welcome to your Expo app 👋
 
-**SmartBiz AI** è un'applicazione mobile B2B progettata su misura per artigiani, meccanici, elettricisti e tecnici sul campo. Risolve i principali problemi della giornata lavorativa: azzera i tempi di gestione burocratica, fornisce supporto diagnostico istantaneo e filtra le chiamate spam che interrompono il lavoro.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
----
+## Get started
 
-## ✨ Funzionalità Principali
+1. Install dependencies
 
-* 🎙️ **Voice Job Logger & Generatore Preventivi:** Registra note vocali sul campo (es. *"Sostituite pastiglie freni su Ford Transit, 1.5 ore di manodopera, ricambio 120€"*) e genera automaticamente preventivi o schede intervento pronti da inviare su WhatsApp o esportare in PDF.
-* 🛡️ **Call Shield (Filtro Chiamate IA):** Intercetta i numeri sconosciuti e lascia che l'assistente IA risponda al tuo posto, qualificando i clienti reali e bloccando automaticamente i call center e lo spam.
-* 📷 **Diagnostica Visiva:** Scatta una foto a spie del cruscotto, codici errore o targhette identificative per ottenere subito una checklist di risoluzione e i codici dei ricambi OEM.
-* 📊 **Micro-CRM & Dashboard:** Monitoraggio in tempo reale del fatturato giornaliero, dei preventivi in sospeso e delle attività programmate.
+   ```bash
+   npm install
+   ```
 
----
+2. Start the app
 
-## 🎨 Design System
+   ```bash
+   npx expo start
+   ```
 
-* **UI Mobile-First:** Ottimizzata per l'uso con una sola mano (ergonomia *Thumb-Zone*).
-* **Industrial Dark Mode:** Interfaccia scura ad alto contrasto (`#0B0F17`) per garantire la massima leggibilità anche all'aperto o under diretta luce solare.
-* **Tasti tattili sovradimensionati:** Pensati per chi lavora con mani sporche o guanti da lavoro.
+In the output, you'll find options to open the app in a
 
----
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-## 🛠️ Tech Stack
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-* **Frontend:** React Native / Expo (PWA Responsive Layout)
-* **Styling:** Tailwind CSS / NativeWind
-* **Icons:** Lucide React / Ionicons
-* **AI Engine Integration:** OpenAI API (GPT-4o / Speech-to-Text)
+## Get a fresh project
 
----
-
-## 🚀 Quick Start
+When you're ready, run:
 
 ```bash
-# Clona il repository
-git clone [https://github.com/tuo-username/smartbiz-ai.git](https://github.com/tuo-username/smartbiz-ai.git)
+npm run reset-project
+```
 
-# Entra nella cartella del progetto
-cd smartbiz-ai
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-# Installa le dipendenze
-npm install
+### Other setup steps
 
-# Avvia l'ambiente di sviluppo
-npx expo start
+- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
+- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
+- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
